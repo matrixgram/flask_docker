@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello()->None:
-    """hello function."""
+    """Hello function."""
     return "hello!"
 
 
