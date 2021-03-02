@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def hello():
-    """"""
+def hello()->None:
+    """hello function :)"""
     return "hello!"
 
 
